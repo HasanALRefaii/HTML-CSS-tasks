@@ -1,0 +1,10 @@
+div { width: 412px;height: 60px; border: 1px black dashed;position: relative; }
+span {display: inline-block;
+      background-color: red;
+      height: 60px; width: 100px; 
+    position: static;   }
+    .two {background-color: green;}
+    .two1 {background-color: green;
+           position: relative; top:10px;left: 20px; }
+    .two2{background-color: green;
+          position: absolute; top:3px ;right:300px ; }     
