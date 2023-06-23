@@ -1,0 +1,16 @@
+.flex { width: 50% ;
+        height: 700px;
+        display: flex ;
+        flex-direction: row ;
+        border: 6px solid goldenrod
+        ;background-color: antiquewhite;
+        justify-content: stretch;
+        
+         ;}
+
+.flex div {
+    width: 11.11% ;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}         
