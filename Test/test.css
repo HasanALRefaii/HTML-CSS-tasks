@@ -1,0 +1,43 @@
+div {
+    background-color: red ;
+    height: 60px;
+    width: 80px;
+    margin: 40px;
+    transition: 3s;
+}
+
+.div1 {
+    transition: 1s;
+    transition-delay: 3s;
+}
+
+.div2 {
+    
+    transition-timing-function: ease
+    ;
+}
+
+.div1:hover {
+    width: 200px;
+}
+
+.div2:hover {
+    width: 200px;
+}
+
+.animation {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation-name:test;
+    animation-duration: 5s;
+    position: relative;
+}
+
+@keyframes test {
+  0% { background-color: blue;left:0px;top:0px}
+  25% { background-color: yellow; left: 300px; top:0px}
+  50% {background-color: orangered;left:300px ; top :300px}
+  75% {background-color: black;left:0px ; top:300px}
+  100% { background-color: aqua; left:0px ;top:0px }
+}

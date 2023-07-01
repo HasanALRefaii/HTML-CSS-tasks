@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div { 
+            background-color: green;
+            height: 180px;
+            width: 200px;
+            position: relative;
+            margin-left: 300px;
+            border-radius: 15%;
+            animation-name:green ;
+            animation-duration: 10s;
+            animation-timing-function: ease-in;
+            animation-delay:1s ;
+        }
+        @keyframes green
+         { 0% {background:linear-gradient(rgb(91, 183, 91),skyblue) ; left:600px ;top:0px}
+           20% {background:linear-gradient(skyblue,blue);left:600px ; top :550px }
+           35% { background:linear-gradient(blue,yellow) ;left:-0px ; top:550px}
+           50% { background:linear-gradient(orange,yellow) ;left:-300px ;top:550px}
+           70% { background:linear-gradient(yellow,brown) ;left: -300px ;top: 0px;}
+           95% { background:linear-gradient(brown,green); left: -150px ; top:0}
+        
+    }
+   </style>
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>
